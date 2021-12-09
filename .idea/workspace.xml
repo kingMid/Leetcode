@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6192b14a-996e-4c67-856b-70c77b3e3fc9" name="Default Changelist" comment="增加目录解构">
-      <change afterPath="$PROJECT_DIR$/Array/A number that appears only once.md" afterDir="false" />
+    <list default="true" id="6192b14a-996e-4c67-856b-70c77b3e3fc9" name="Default Changelist" comment="2021年12月9日">
+      <change afterPath="$PROJECT_DIR$/Array/Intersection of two arrays.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638860735270</updated>
       <workItem from="1638860739393" duration="960000" />
-      <workItem from="1638874517006" duration="9439000" />
+      <workItem from="1638874517006" duration="14795000" />
     </task>
     <task id="LOCAL-00001" summary="2021年12月7日">
       <created>1638860797173</created>
@@ -66,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638937627863</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2021年12月9日">
+      <created>1639019306366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639019306366</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +95,7 @@
     <MESSAGE value="2021年12月7日" />
     <MESSAGE value="2021年12月8日" />
     <MESSAGE value="增加目录解构" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加目录解构" />
+    <MESSAGE value="2021年12月9日" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021年12月9日" />
   </component>
 </project>
