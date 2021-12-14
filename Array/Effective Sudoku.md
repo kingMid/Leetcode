@@ -62,46 +62,26 @@ board[i][j] 是一位数字（1-9）或者 '.'
 链接：https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2f9gg/
 来源：力扣（LeetCode）
 ---
-```
-/**
- * @param {character[][]} board
- * @return {boolean}
- */
-var isValidSudoku = function(board) {
-    let map = new Map();
-    for(let i = 0; i< 9; i++){
-      board[i].map((item,index)=>{
-          map.set({item,index})
-      })
-        for(let j=0; j<9; j++){
-            if(board[i][j] !=="."){
-                if(map.has(board[i][j]) && map.get(board[i][j]) !== j){
-                    return false
-                }
-            }
-        }
-    }
-    var arrJustMin = function(arr,n,m){
-        let i = 3*n;
-        let j = 3*m;
-        let map = new Map();
-        let arrR =[];
-        for(j; j<= 3*(m+1)-1; j++ ){
-            for( i;i<=3*(n+1)-1;i++ ){
-               if(arr[i][j] !=="."){
-                if(map.has(arrR[i][j]) && map.get(arrR[i][j]) !== j){
-                    return false
-                }
-            }
-            }
-        }
-    }
 
-    for(let i = 0; i<3;i++){
-        for(let j = 0; j<3;j++){
-            arrJustMin(board,i,j)
-         }
+```
+var isValidSudoku = function(board) {
+    let row={}
+    let col={}
+    let box={}
+    for(let i=0;i<board.length;i++){
+        for(let j=0;j<board[i].length;j++){
+            let num=board[i][j]
+            if(num!=='.'){
+                let boxindex = Math.floor(i/3)*3+Math.floor(j/3);
+                if(row[i+''+num] || col[j+''+num] || box[boxindex+''+num] ){
+                    return false
+                }
+                row[i+''+num]=true
+                col[j+''+num]=true
+                box[boxindex+''+num]=true
+            }
+        }
     }
-    return true
+    return true;
 };
 ```

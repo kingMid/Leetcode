@@ -14,6 +14,7 @@
 链接：https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2ba4i/
 来源：力扣（LeetCode）
 
+思路：将所有不等于0的前移即可
 ```
 /**
  * @param {number[]} nums
@@ -22,16 +23,12 @@
 var moveZeroes = function(nums) {
     let i = 0;
     let len = nums.length;
-    for(let j = 1; j < len; j++ ){
-        if(nums[i] = 0){
-           [nums[i],nums[j]] = [nums[j],nums[i]]
-           i++;
-           if(j < len-1){
-            if(nums[j] = 0){
-              [nums[j],nums[j+1]] = [nums[j+1],nums[j]]
-             }
-           }
-        } 
-    }
+        for(let j = 0; j < len; j++ ){
+            if(nums[j] !== 0){
+               [nums[j],nums[i]] = [nums[i],nums[j]] 
+               i++
+            }
+       }  
 };
+
 ```

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6192b14a-996e-4c67-856b-70c77b3e3fc9" name="Default Changelist" comment="2021年12月9日">
-      <change afterPath="$PROJECT_DIR$/Array/Effective Sudoku.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/Move Zeroes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/reverse string.md" afterDir="false" />
+    <list default="true" id="6192b14a-996e-4c67-856b-70c77b3e3fc9" name="Default Changelist" comment="2021年12月13日">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +44,9 @@
       <workItem from="1638860739393" duration="960000" />
       <workItem from="1638874517006" duration="25299000" />
       <workItem from="1639119090890" duration="1205000" />
-      <workItem from="1639365188737" duration="1093000" />
+      <workItem from="1639365188737" duration="2081000" />
+      <workItem from="1639367471125" duration="567000" />
+      <workItem from="1639468656680" duration="1582000" />
     </task>
     <task id="LOCAL-00001" summary="2021年12月7日">
       <created>1638860797173</created>
@@ -92,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639038067460</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2021年12月13日">
+      <created>1639366420652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639366420652</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +120,7 @@
     <MESSAGE value="2021年12月8日" />
     <MESSAGE value="增加目录解构" />
     <MESSAGE value="2021年12月9日" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021年12月9日" />
+    <MESSAGE value="2021年12月13日" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021年12月13日" />
   </component>
 </project>
