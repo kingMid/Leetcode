@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6192b14a-996e-4c67-856b-70c77b3e3fc9" name="Default Changelist" comment="2021年12月13日">
+      <change afterPath="$PROJECT_DIR$/String/Validate palindrome string.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -9,8 +10,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Leetcode" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -33,7 +42,22 @@
       <recent name="C:\Users\aiyong\Desktop\9intruethrough\算法\leetcode\Leetcode\Array" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6192b14a-996e-4c67-856b-70c77b3e3fc9" name="Default Changelist" comment="" />
@@ -47,6 +71,7 @@
       <workItem from="1639365188737" duration="2081000" />
       <workItem from="1639367471125" duration="567000" />
       <workItem from="1639468656680" duration="1582000" />
+      <workItem from="1640054618298" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="2021年12月7日">
       <created>1638860797173</created>
@@ -97,23 +122,59 @@
       <option name="project" value="LOCAL" />
       <updated>1639366420652</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2021年12月20日">
+      <created>1639993853390</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639993853390</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
             <State />
           </value>
         </entry>
+        <entry key="2">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
+              <option name="LONG_EDGES_VISIBLE" value="true" />
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="MERGE_COMMITS" value="true" />
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2021年12月7日" />
@@ -121,6 +182,45 @@
     <MESSAGE value="增加目录解构" />
     <MESSAGE value="2021年12月9日" />
     <MESSAGE value="2021年12月13日" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021年12月13日" />
+    <MESSAGE value="2021年12月20日" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021年12月20日" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1367" y="420" width="902" height="540" key="CommitChangelistDialog2" timestamp="1639993852780">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1367" y="420" width="902" height="540" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1639993852780" />
+    <state x="1396" y="616" key="FileChooserDialogImpl" timestamp="1639988333559">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1396" y="616" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1639988333559" />
+    <state x="120" y="243" key="MergeDialog" timestamp="1639987155889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="120" y="243" key="MergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1639987155889" />
+    <state x="862" y="547" key="MultipleFileMergeDialog" timestamp="1639987161949">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="862" y="547" key="MultipleFileMergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1639987161949" />
+    <state x="1470" y="776" key="VCS.ChangelistChooser" timestamp="1639987820490">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1470" y="776" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1639987820490" />
+    <state x="1410" y="559" key="Vcs.Push.Dialog.v2" timestamp="1639997362837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1410" y="559" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1639997362837" />
+    <state x="1016" y="462" width="1200" height="800" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1639987876207">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1016" y="462" width="1200" height="800" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1639987876207" />
+    <state x="944" y="748" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1639987073921">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="944" y="748" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1639987073921" />
+    <state x="1312" y="702" key="git4idea.ui.GitTagDialog" timestamp="1639987753586">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1312" y="702" key="git4idea.ui.GitTagDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1639987753586" />
   </component>
 </project>
