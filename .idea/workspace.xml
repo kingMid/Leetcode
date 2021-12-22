@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6192b14a-996e-4c67-856b-70c77b3e3fc9" name="Default Changelist" comment="2021年12月13日">
-      <change afterPath="$PROJECT_DIR$/String/Validate palindrome string.md" afterDir="false" />
+    <list default="true" id="6192b14a-996e-4c67-856b-70c77b3e3fc9" name="Default Changelist" comment="2021年12月21日">
+      <change afterPath="$PROJECT_DIR$/String/string change to number.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,8 @@
       <workItem from="1639365188737" duration="2081000" />
       <workItem from="1639367471125" duration="567000" />
       <workItem from="1639468656680" duration="1582000" />
-      <workItem from="1640054618298" duration="547000" />
+      <workItem from="1640054618298" duration="1493000" />
+      <workItem from="1640151695659" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="2021年12月7日">
       <created>1638860797173</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639993853390</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2021年12月21日">
+      <created>1640055222043</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640055222043</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,13 +191,14 @@
     <MESSAGE value="2021年12月9日" />
     <MESSAGE value="2021年12月13日" />
     <MESSAGE value="2021年12月20日" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021年12月20日" />
+    <MESSAGE value="2021年12月21日" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021年12月21日" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1367" y="420" width="902" height="540" key="CommitChangelistDialog2" timestamp="1639993852780">
+    <state x="1367" y="420" width="902" height="540" key="CommitChangelistDialog2" timestamp="1640055220787">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1367" y="420" width="902" height="540" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1639993852780" />
+    <state x="1367" y="420" width="902" height="540" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1640055220787" />
     <state x="1396" y="616" key="FileChooserDialogImpl" timestamp="1639988333559">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -206,10 +215,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1470" y="776" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1639987820490" />
-    <state x="1410" y="559" key="Vcs.Push.Dialog.v2" timestamp="1639997362837">
+    <state x="1410" y="559" key="Vcs.Push.Dialog.v2" timestamp="1640055281932">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1410" y="559" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1639997362837" />
+    <state x="1410" y="559" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1640055281932" />
     <state x="1016" y="462" width="1200" height="800" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1639987876207">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
